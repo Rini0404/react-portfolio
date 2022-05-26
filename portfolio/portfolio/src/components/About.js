@@ -1,5 +1,5 @@
 // src/components/About.js
-
+// import Tailwinds from 'Tailwinds';
 import React from "react";
 
 export default function About() {
