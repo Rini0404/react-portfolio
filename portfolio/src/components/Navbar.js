@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import resume from "../WebDev.pdf";
+
+
 const Index = () => {
     const [activeStatus, setActiveStatus] = useState(1);
     return (
         <div>
-            <div className="sm:hidden relative w-11/12 mx-auto bg-white rounded">
+            <div className="sm:hidden relative w-11/12 mx-auto rounded">
                 <div className="absolute inset-0 m-auto mr-4 z-0 w-6 h-6">
                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-selector" width={24} height={24} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#A0AEC0" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" />
@@ -21,6 +24,7 @@ const Index = () => {
                     <option className="text-sm text-gray-600">inactive </option>
                 </select>
             </div>
+            {/* TODO:  hide color later */}
             <div className="xl:w-full xl:mx-0 h-12 hidden sm:block bg-white shadow rounded">
                 <ul className="flex border-b px-5">
                     <li onClick={() => setActiveStatus(1)} className={activeStatus == 1 ? "text-sm border-indigo-700 pt-3 rounded-t text-indigo-700 mr-12" : "text-sm text-gray-600 py-3 flex items-center mr-12 hover:text-indigo-700 cursor-pointer"}>
