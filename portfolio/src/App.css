@@ -2,6 +2,11 @@ body, html {
     height: 100%
 }
 
+* { 
+  position: relative;
+  z-index: 2;
+}
+
 .App {
   text-align: center;
 }
@@ -54,4 +59,27 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#mePicture { 
+  position: fixed;
+  z-index: 0 ;
+  height: 120vh;
+  /* margin: 0 25%; */
+  right: 150px
+}
+
+#coolPic { 
+  position: fixed;
+  width: 200px;
+  height: 250px;
+  top: 5% ;
+  right: 150px ;
+  /* margin: 0 25%; */
+  z-index: 1;
+}
+
+.picDiv {
+  position: relative;
+  /* border: 2px solid red; */
 }

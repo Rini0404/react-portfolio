@@ -10,7 +10,7 @@ const skills = () => {
   return (
     <div class="flex justify-center p-8">
     <div class="flex px-10">
-      <div class="rounded-lg p-8 border-2 border-fuchsia-600 	">
+      <div class="bg-white rounded-lg p-8 border-2 border-fuchsia-600 opacity-80	">
         <div class="mb-4">
           <h1 class="font-semibold text-gray-50">Mutual Followers</h1>
         </div>
@@ -62,7 +62,7 @@ const skills = () => {
       </div>
     </div>
     <div class="flex  ">
-      <div class="rounded-lg p-8 border-2 border-fuchsia-600 	">
+      <div class="bg-white rounded-lg p-8 border-2 border-fuchsia-600 opacity-80	">
         <div class="mb-4">
           <h1 class="font-semibold text-gray-50">Mutual Followers</h1>
         </div>
