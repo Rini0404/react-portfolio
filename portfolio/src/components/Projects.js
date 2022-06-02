@@ -3,7 +3,7 @@ import rookiesPic from "../imgs/p2.PNG";
 import pcApp from '../imgs/pcBuild.jpg'
 import tgdPic from '../imgs/sdsd.PNG'
 import pwaPic from '../imgs/textE.PNG'
-import p3 from '../imgs/physics.png'
+import p3 from '../imgs/react-logo@3x.svg'
 
 function IndexPage() {
   return (
@@ -86,7 +86,7 @@ function IndexPage() {
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                   <div>
                     <img
-                      className="w-full"
+                      className="w-full rounded"
                       src={p3}
                       alt="games"
                     />
@@ -95,7 +95,7 @@ function IndexPage() {
                         Transactions
                       </h1>
                       <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">
-                        REACT app for Project-3 Will go here!
+                        REACT app for Project-3 Will go here! <br></br>COMING SOOOOOON!<br></br>TO YOUUUUU!
                       </p>
                     </div>
                   </div>
