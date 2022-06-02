@@ -46,20 +46,36 @@ body, html {
   }
 }
 
-
-.bgs {
-  background-image: 
-  url(
-"./imgs/starfield-deep-space-many-light-years-far-from-earth_112293-501.webp");
- 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 2px solid rgba(0, 255, 170, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(2, 133, 93, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
 }
+
+@media (max-width: 767px) {
+  #icons {
+    margin: 10px !important;
+  }
+}
+#icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
 
 #mePicture { 
   position: fixed;
@@ -71,7 +87,7 @@ body, html {
 
 #coolPic { 
   position: fixed;
-  width: 200px;
+  width: 400px;
   height: 250px;
   top: 5% ;
   right: 150px ;
