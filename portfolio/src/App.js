@@ -6,8 +6,8 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import TechSkills from "./components/TechSkills";
 import Projects from "./components/Projects";
-// import Skills from "./components/Skills";
-// import Testimonials from "./components/Testimonials";
+import AboutMe from './components/ABoutMe'
+import Footer from './components/Footer'
 import './App.css';
 import './index.css'
 
@@ -18,11 +18,10 @@ export default function App() {
       <main className="text-gray-400 body-font " >
       <Navbar classNam = ""/>  
       <About />  
-      {/* <Contact />     */}
      <TechSkills />
       <Projects />
-      {/* <Skills /> */}
-      {/* <Testimonials /> */}
+      <AboutMe />
+      <Footer />
       </main>
   );
 }
