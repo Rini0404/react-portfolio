@@ -7,6 +7,8 @@
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "daisyui": "^2.15.2",
+    "gh-pages": "^4.0.0",
+    "homepage": "https://github.com/Rini0404/react-portfolio",
     "pure-react-carousel": "^1.28.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -19,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
