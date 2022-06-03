@@ -1,28 +1,33 @@
 // src/App.js
 
 import React from "react";
-import About from "./components/About";
+// import { BrowserRouter as Router,  Route, Routes, Link } from 'react-router-dom';
+import About from "./components/About/About";
 // import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import TechSkills from "./components/TechSkills";
-import Projects from "./components/Projects";
-import AboutMe from './components/ABoutMe'
-import Footer from './components/Footer'
+import Navbar from "./components/Navbar/Navbar";
+import TechSkills from "./components/TechSkills/TechSkills";
+import Projects from "./components/Projects/Projects";
+import AboutMe from './components/AboutMe/ABoutMe'
+import Footer from './components/Footer/Footer'
 import './App.css';
 import './index.css'
 
 
+
+
+
 export default function App() {
   return (
-    
-      <main className="text-gray-400 body-font " >
-      <Navbar classNam = ""/>  
-      <About />  
-     <TechSkills />
-      <Projects />
-      <AboutMe />
-      <Footer />
-      </main>
+      // Line here to add color to the icons.
+
+        <main className="text-white body-font " >
+          <Navbar />
+          <About />  
+          <TechSkills />
+            <Projects />
+              <AboutMe />
+          <Footer />
+        </main>
   );
 }
 
