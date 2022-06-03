@@ -18,16 +18,14 @@ import './index.css'
 
 export default function App() {
   return (
-      // Line here to add color to the icons.
-
-        <main className="text-white body-font " >
-          <Navbar />
-          <About />  
-          <TechSkills />
-            <Projects />
-              <AboutMe />
-          <Footer />
-        </main>
+    <main className="text-white body-font " >
+      <Navbar />
+        <About />  
+        <TechSkills />
+        <Projects />
+        <AboutMe />
+      <Footer />
+    </main>
   );
 }
 

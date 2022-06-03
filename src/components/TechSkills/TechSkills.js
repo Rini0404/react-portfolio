@@ -44,12 +44,12 @@ const skills = () => {
 
           </div>
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiHtml5 id = "icon"/>
+          <DiHtml5 id = "icon" />
 
           </div>
         
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiMongodb id = "icon"/>
+          <DiMongodb id = "icon" />
           </div>
         </div>
       </div>
