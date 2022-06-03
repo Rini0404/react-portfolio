@@ -14,9 +14,8 @@ export default function MyApp() {
                 <CarouselProvider naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={2}>
                     <h1 className="text-5xl font-bold xl:block hidden leading-tight text-gray-800">
                         Thanks For visiting!
-                       
                     </h1>
-                    <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-gray-800">What our customers are saying</h1>
+                    <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-gray-800">Thanks For Visiting!</h1>
                             <div className="flex">
                                 <div className="mt-14 md:flex">
                                     <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">

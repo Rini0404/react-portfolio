@@ -29,27 +29,27 @@ const skills = () => {
         </div>
         <div class="grid grid-cols-2 gap-4 ">
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg  space-y-4">
-            <DiJsBadge id ="icons" />
+            <DiJsBadge id ="icon" />
           </div>
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-            <IoLogoCss3 id = "icons" />
+            <IoLogoCss3 id = "icon" />
             
           </div>
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-            <DiReact id = "icons"/>
+            <DiReact id = "icon"/>
 
           </div>
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiNodejs id = "icons"/>
+          <DiNodejs id = "icon"/>
 
           </div>
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiHtml5 id = "icons"/>
+          <DiHtml5 id = "icon"/>
 
           </div>
         
           <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiMongodb id = "icons"/>
+          <DiMongodb id = "icon"/>
           </div>
         </div>
       </div>

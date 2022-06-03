@@ -51,7 +51,8 @@ body, html {
     font-size: 2.5em !important;
 
 }
-#icons {
+
+#icon {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -63,21 +64,22 @@ body, html {
   box-shadow: 4px 5px 4px 3px rgba(2, 133, 93, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  /* color: white !important; */
 }
 
 @media (max-width: 767px) {
   #icons {
-    margin: 10px !important;
+    margin: 10px ;
   }
 }
 #icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  transform: scale(1.05) ;
+  overflow: hidden ;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) 
 }
 .tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
+  padding: 20px;
+  line-height: 1.6;
 }
 
 
@@ -114,4 +116,15 @@ body, html {
 #projectsMe { 
   background: black;
   background-image: url('./imgs/p2.PNG');
+}
+
+.navi { 
+  background: rgba(0, 255, 170, 0.637)
+}
+
+
+@media (max-width: 767px) {
+  .techSkills {
+    margin: 10px ;
+  }
 }

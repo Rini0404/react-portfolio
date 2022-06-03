@@ -10,10 +10,10 @@ function IndexPage() {
 
     return (
         <>
-      <div className="picDiv"> 
+      {/* <div className="picDiv"> 
         <img id = "mePicture" src = {mePicture}></img>
         <img id = "coolPic" class="h-full" src={coolBg} alt="Device"></img>
-      </div> 
+      </div>  */}
             <div className="lg:px-6 xl:px-0">
                 <div className="container mx-auto relative z-20">
                 </div>
