@@ -18,7 +18,7 @@ import './index.css'
 
 export default function App() {
   return (
-    <main className="text-white body-font " >
+    <main className="" >
       <Navbar />
         <About />  
         <TechSkills />

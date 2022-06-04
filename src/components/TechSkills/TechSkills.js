@@ -1,94 +1,101 @@
 import React from "react";
 
-import {
-  DiJsBadge,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiHtml5,} from "react-icons/di";
-
-
-
-import {
-  SiPostman,
-  SiVisualstudiocode,
-  SiInsomnia,
-  SiTailwindcss, 
-
-} from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io5";
-import { FaBootstrap, FaNpm } from "react-icons/fa";
+import { ReactComponent as JavaScript } from "../../imgs/javascript.svg";
+import { ReactComponent as PostMan } from "../../imgs/postman.svg";
+import { ReactComponent as ReactSvg } from "../../imgs/react.svg";
+import { ReactComponent as VsCode } from "../../imgs/visualstudiocode.svg";
+import { ReactComponent as Css } from "../../imgs/css3 (1).svg";
+import { ReactComponent as NodeJs } from "../../imgs/nodedotjs.svg";
+import { ReactComponent as Html5 } from "../../imgs/html5.svg";
+import { ReactComponent as Express } from "../../imgs/express (1).svg";
+import { ReactComponent as MySql } from "../../imgs/mysql.svg";
+import { ReactComponent as MongoDb } from "../../imgs/mongodb.svg";
+import { ReactComponent as Tailwinds } from "../../imgs/tailwindcss.svg";
+import { ReactComponent as Npm } from "../../imgs/npm.svg";
+// import {ReactComponent as Npm} from '../../imgs/npm.svg';
+// import {ReactComponent as Npm} from '../../imgs/npm.svg';
+import test from "../../imgs/test.jpg";
+import test1 from "../../imgs/test1.jpg";
+import test3 from "../../imgs/test3.jpg";
 
 const skills = () => {
   return (
-    <div class="flex justify-center p-8">
-    <div class="flex px-10">
-      <div class=" rounded-lg p-8 border-2 border-fuchsia-600 opacity-80	">
-        <div class="mb-4">
-          <h1 class="font-semibold text-gray-50">Professional Skills</h1>
-        </div>
-        <div class="grid grid-cols-2 gap-4 ">
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg  space-y-4">
-            <DiJsBadge id ="icon" />
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-            <IoLogoCss3 id = "icon" />
-            
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-            <DiReact id = "icon"/>
+    <div class="parent justify-items-center ">
+      <div class="div1"></div>
 
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiNodejs id = "icon"/>
+      <div class="div2 font-mono text-white font-bold	text-5xl p-6">
+        <h1>Professional Skills 👔</h1>{" "}
+      </div>
 
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiHtml5 id = "icon" />
+      <div class="div3">
+        {" "}
+        <ReactSvg style={{ width: "100", fill: "#fff" }} className="icons" />
+      </div>
 
-          </div>
-        
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <DiMongodb id = "icon" />
-          </div>
-        </div>
+      <div class="div4">
+        {" "}
+        <NodeJs style={{ width: "100", fill: "#fff" }} className="icons" />{" "}
+      </div>
+
+      <div class="div5">
+        <Html5 style={{ width: "100", fill: "#fff" }} className="icons" />
+      </div>
+
+      <div class="div6">
+        {" "}
+        <Express
+          style={{ width: "100", fill: "#fff" }}
+          className="icons"
+        />{" "}
+      </div>
+
+      <div class="div7">
+        {" "}
+        <JavaScript style={{ width: "100", fill: "#fff" }} className="icons" />
+      </div>
+      {/* tools */}
+      <div class="div8">
+        <Css style={{ width: "100", fill: "#fff" }} className="icons" />
+      </div>
+
+      <div class="div9 font-mono text-white font-bold	text-5xl p-6 "> 
+      <h1>Professional Tools
+        🪓
+      </h1>
+      </div>
+
+      <div class="div10">
+        {" "}
+        <MongoDb
+          style={{ width: "100", fill: "#fff" }}
+          className="icons"
+        />{" "}
+      </div>
+
+      <div class="div11">
+        {" "}
+        <Tailwinds style={{ width: "100", fill: "#fff" }} className="icons" />
+      </div>
+
+      <div class="div12">
+        {" "}
+        <Npm style={{ width: "100", fill: "#fff" }} className="icons" />{" "}
+      </div>
+
+      <div class="div13">
+        {" "}
+        <VsCode style={{ width: "100", fill: "#fff" }} className="icons" />
+      </div>
+
+      <div class="div14">
+        {" "}
+        <MySql style={{ width: "100", fill: "#fff" }} className="icons" />
+      </div>
+      <div class="div15">
+        <PostMan style={{ width: "100", fill: "#fff" }} className="icons" />{" "}
       </div>
     </div>
-
-    {/* tools */}
-    <div class="flex  ">
-      <div class="brounded-lg p-8 border-2 border-fuchsia-600">
-        <div class="mb-4">
-          <h1 class="font-semibold text-gray-50">Professional Tools</h1>
-        </div>
-        <div class="grid grid-cols-2 gap-4">
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <SiPostman id = "icons"/>
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <SiVisualstudiocode id = "icons"/>
-            
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <SiInsomnia id = "icons"/>
-
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <SiTailwindcss id = "icons"/>
-
-          </div>
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <FaBootstrap id = "icons"/>
-
-          </div>
-        
-          <div class="flex items-center bg-black opacity-80 justify-center flex-col border-2 p-4 rounded-lg w-48 space-y-4">
-          <FaNpm id = "icons"/>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
   );
 };
 
