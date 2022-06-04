@@ -106,11 +106,12 @@ body, html {
 }
 
 
-.bgForPjects { 
-  background-image: url('./imgs/guywithLaptop.png');
+.bgForPjects, .ayo, .what { 
+  background-image: url('./imgs/test3.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
 }
+
 
 #projectsMe { 
   background: black;
@@ -135,7 +136,8 @@ body, html {
   grid-template-rows: .2fr repeat(2, 1fr) .2fr repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: url('./imgs/test3.jpg')
+  background-image: url('./imgs/test3.jpg');
+  border: none;
   }
   
   .div1 { grid-area: 1 / 4 / 7 / 7;}

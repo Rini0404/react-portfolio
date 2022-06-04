@@ -24,7 +24,7 @@ const skills = () => {
     <div class="parent justify-items-center ">
       <div class="div1"></div>
 
-      <div class="div2 font-mono text-white font-bold	text-5xl p-6">
+      <div class="div2 text-3xl lg:text-6xl xl:text-5xl font-black text-violet-700	text-center md:text-left tracking-tighter f-f-i leading-tight text-heading-color p-8">
         <h1>Professional Skills 👔</h1>{" "}
       </div>
 
@@ -59,7 +59,7 @@ const skills = () => {
         <Css style={{ width: "100", fill: "#fff" }} className="icons" />
       </div>
 
-      <div class="div9 font-mono text-white font-bold	text-5xl p-6 "> 
+      <div class="div9 text-3xl lg:text-6xl xl:text-5xl font-black text-violet-700	text-center md:text-left tracking-tighter f-f-i leading-tight text-heading-color p-8 "> 
       <h1>Professional Tools
         🪓
       </h1>
@@ -83,16 +83,16 @@ const skills = () => {
         <Npm style={{ width: "100", fill: "#fff" }} className="icons" />{" "}
       </div>
 
-      <div class="div13">
+      <div class="div13 pb-8">
         {" "}
         <VsCode style={{ width: "100", fill: "#fff" }} className="icons" />
       </div>
 
-      <div class="div14">
+      <div class="div14 pb-8">
         {" "}
         <MySql style={{ width: "100", fill: "#fff" }} className="icons" />
       </div>
-      <div class="div15">
+      <div class="div15 pb-8">
         <PostMan style={{ width: "100", fill: "#fff" }} className="icons" />{" "}
       </div>
     </div>
