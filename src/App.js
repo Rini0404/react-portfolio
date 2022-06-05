@@ -9,8 +9,6 @@ import AboutMe from './components/AboutMe/ABoutMe'
 import Footer from './components/Footer/Footer'
 import './App.css';
 import './index.css';
-import { Link } from "react-router-dom";
-
 
 
 
@@ -18,13 +16,10 @@ import { Link } from "react-router-dom";
 
 export default function App() {
   return (
-    <main className="" >
-      <Navbar />
+    <main>
         <About />  
         <TechSkills />
         <Projects />
-        {/* <AboutMe /> */}
-      <Footer />
     </main>
   );
 }

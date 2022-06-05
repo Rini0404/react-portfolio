@@ -3,7 +3,7 @@ import resUme from '../../WebDev.pdf';
 import {FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Footer4 = () => {
     return (
-        <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 px-4 py-12 bg-black-300 ">
+        <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 px-4 py-12 ">
             <div className="flex flex-col items-center justify-center">
                 <div>
                   <h1 className = "text-2xl font-semibold xl:leading-loose text-white">Rene Ortega</h1>
