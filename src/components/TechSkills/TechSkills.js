@@ -13,11 +13,7 @@ import { ReactComponent as MySql } from "../../imgs/mysql.svg";
 import { ReactComponent as MongoDb } from "../../imgs/mongodb.svg";
 import { ReactComponent as Tailwinds } from "../../imgs/tailwindcss.svg";
 import { ReactComponent as Npm } from "../../imgs/npm.svg";
-// import {ReactComponent as Npm} from '../../imgs/npm.svg';
-// import {ReactComponent as Npm} from '../../imgs/npm.svg';
-import test from "../../imgs/test.jpg";
-import test1 from "../../imgs/test1.jpg";
-import test3 from "../../imgs/test3.jpg";
+
 
 const skills = () => {
   return (

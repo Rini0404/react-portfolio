@@ -2,9 +2,20 @@ import React, { useState } from "react";
 import coolBg from "../../imgs/coolBg.png";
 import mePicture from "../../imgs/me.svg.png";
 import Typewriter from "typewriter-effect";
+import { gsap } from "gsap";
+const { useEffect, useRef } = React;
+
+
+gsap.to("#logo", {duration: 1, x: 300, ease: "bounce"});
 
 function IndexPage() {
   const [show, setShow] = useState(false);
+  const boxRef = useRef()
+  useEffect(() => {
+    gsap.to(boxRef.current, {
+      rotation: "+=360"
+    });
+  });
 
   return (
     <>
@@ -36,7 +47,7 @@ function IndexPage() {
               </h1>
             </div>
             <div className="w-1/2 sm:w-2/5 h-64 md:h-auto m-auto flex items-center overflow-hidden">
-              <img src={coolBg} />
+              <img ref={boxRef} src={coolBg} />
             </div>
           </div>
         </div>
