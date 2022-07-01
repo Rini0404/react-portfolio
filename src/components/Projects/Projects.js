@@ -17,7 +17,7 @@ function IndexPage() {
 
                             <div className="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                                 <div className="py-2 px-3 text-center text-sm">
-                                    <p className="text-gray-300">A webb app using MERN to build ypuor next Pc Rigg!</p>
+                                    <p className="text-gray-300">A webb app using MERN to build your next Pc Rigg!</p>
                                     
                                     <button className="mx-2 my-2 bg-gray-200 transition duration-150 ease-in-out focus:outline-none hover:bg-gray-300 rounded text-indigo-700 px-6 py-2 text-xs"><a href ="https://github.com/Rini0404/pc-architect" target = "_blank">Github Repo </a></button>
                                     <button className="mx-2 my-2 bg-gray-200 transition duration-150 ease-in-out focus:outline-none hover:bg-gray-300 rounded text-indigo-700 px-6 py-2 text-xs"><a href ="" target = "_blank"> Live Link </a></button>
