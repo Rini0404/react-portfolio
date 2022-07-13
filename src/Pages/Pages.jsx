@@ -1,6 +1,7 @@
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import Home from "./Home";
+import Projects from "./Projects";
 
 function Pages() {
   const location = useLocation();
@@ -8,7 +9,8 @@ function Pages() {
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home />} />
       <Route path="/AboutMe" element={<AboutMe />} />
-    </Routes>
+      <Route path="/Projects" element={<Projects />} />
+    </Routes> 
   );
 }
 

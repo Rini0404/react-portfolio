@@ -1,6 +1,5 @@
 import React from "react";
 
-import { IoLogoCss3 } from "react-icons/io5";
 import { ReactComponent as JavaScript } from "../../imgs/javascript.svg";
 import { ReactComponent as PostMan } from "../../imgs/postman.svg";
 import { ReactComponent as ReactSvg } from "../../imgs/react.svg";

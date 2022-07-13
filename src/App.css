@@ -161,3 +161,13 @@ body, html {
   .div17 { grid-area: 1 / 7 / 7 / 8; 
   
   } */
+
+  .bgCards, .btnP, .imgBg { 
+    background-color:   inherit;
+
+    border: 2px solid rgba(0, 255, 170, 0.637) ;
+    border-radius: 5px ;
+    box-shadow: 4px 5px 4px 3px rgba(2, 133, 93, 0.137) ;
+    transition: all 0.4s ease 0s ;
+  }
+  
