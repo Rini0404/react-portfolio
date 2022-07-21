@@ -16,8 +16,8 @@ export default function MyApp() {
     <>
     <div className="bgForPjects">
       <div className="flex items-center justify-between h-full w-full absolute z-0">
-        <div className="w-1/3 h-full" />
-        <div className="w-4/6 ml-16 bg-gray-100 h-full" />
+        <div className="w-1/3 h-full blur" />
+        <div className="w-4/6 ml-16" />
       </div>
       <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
         <CarouselProvider
@@ -25,10 +25,10 @@ export default function MyApp() {
           isIntrinsicHeight={true}
           totalSlides={2}
         >
-          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-gray-800">
+          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-cyan-400	">
             Thanks For visiting!
           </h1>
-          <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-gray-800">
+          <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-cyan-400	">
             Thanks For Visiting!
           </h1>
           <div className="flex">
@@ -48,10 +48,10 @@ export default function MyApp() {
               </div>
               <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
                 <div>
-                  <h1 className="text-2xl font-semibold xl:leading-loose text-gray-800">
+                  <h1 className="text-2xl font-semibold xl:leading-loose text-cyan-400">
                     About Me!
                   </h1>
-                  <p className="text-base font-medium leading-6 mt-4 text-gray-600 bg-white p-40.">
+                  <p className="text-base font-medium leading-6 mt-4 text-cyan-400	">
                     Hello! My name is Rene Ortega Jr. As of today, I can proudly
                     say, "I found my passion"! Before even considering becoming
                     a Web Developer, I worked as a Construction Foreman/Quality
@@ -63,17 +63,16 @@ export default function MyApp() {
                     new life elsewhere, preferably in Salt Lake City, Utah.
                     Mainly for the snow and cold temperatures and the tech
                     industry in Utah. As a big believer in Family being a part
-                    of my life, I spend with my loved ones and my girlfriend
-                    Natalie! My interests outside of work are my health passions
+                    of my life, I spend with my loved ones! My interests outside of work are my health passions
                     and taking care/growing my plants and succulents.
                   </p>
                   <br></br>
                 </div>
                 <div className="md:mt-0 mt-8">
-                  <p className="text-base font-medium leading-4 text-gray-800">
+                  <p className="text-base font-medium leading-4 text-cyan-400	">
                     -Rene Ortega
                   </p>
-                  <p className="text-base leading-4 mt-2 mb-4 text-gray-600">
+                  <p className="text-base leading-4 mt-2 mb-4 text-cyan-400	">
                     Jr. Web Developer
                   </p>
                 </div>
