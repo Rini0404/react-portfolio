@@ -7,7 +7,7 @@ const Footer4 = () => {
       <div className="flex flex-col items-center justify-center">
         <div>
           <h1 className="text-2xl font-semibold xl:leading-loose text-white">
-            Rene Ortega
+            Reneortega2468@gmail.com
           </h1>
         </div>
         <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-8">

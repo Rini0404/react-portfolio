@@ -8,10 +8,13 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import mePic from "../imgs/unnamed.jpg";
+import Intro from '../components/Intro/Intro';
+
 
 export default function MyApp() {
   return (
-    <div>
+    <>
+    <div className="bgForPjects">
       <div className="flex items-center justify-between h-full w-full absolute z-0">
         <div className="w-1/3 h-full" />
         <div className="w-4/6 ml-16 bg-gray-100 h-full" />
@@ -48,7 +51,7 @@ export default function MyApp() {
                   <h1 className="text-2xl font-semibold xl:leading-loose text-gray-800">
                     About Me!
                   </h1>
-                  <p className="text-base font-medium leading-6 mt-4 text-gray-600">
+                  <p className="text-base font-medium leading-6 mt-4 text-gray-600 bg-white p-40.">
                     Hello! My name is Rene Ortega Jr. As of today, I can proudly
                     say, "I found my passion"! Before even considering becoming
                     a Web Developer, I worked as a Construction Foreman/Quality
@@ -79,6 +82,8 @@ export default function MyApp() {
           </div>
         </CarouselProvider>
       </div>
-    </div>
-  );
+    </div>   
+    <Intro />
+  </>
+    );
 }
