@@ -58,7 +58,7 @@ function Me() {
                         </div>
                     </div>
                     <div aria-hidden="true" className="mt-10 lg:mt-0">
-                        <img src={Me1} alt="" className="mx-auto rounded-lg shadow-lg " />
+                        <img src={Me1} alt="" className="mx-auto  " />
                     </div>
                 </div>
                 <div>
