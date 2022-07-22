@@ -1,6 +1,7 @@
 import React from "react";
 import resUme from "../../WebDev.pdf";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 const Footer4 = () => {
   return (
     <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12 ">

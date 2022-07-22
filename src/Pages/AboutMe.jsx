@@ -1,11 +1,9 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
+  CarouselProvider
 } from "pure-react-carousel";
+
 import "pure-react-carousel/dist/react-carousel.es.css";
 import mePic from "../imgs/unnamed.jpg";
 import Intro from '../components/Intro/Intro';
@@ -14,18 +12,18 @@ import Intro from '../components/Intro/Intro';
 export default function MyApp() {
   return (
     <>
-    <div className="bgForPjects">
+    <div className="bgForPjects ">
       <div className="flex items-center justify-between h-full w-full absolute z-0">
-        <div className="w-1/3 h-full blur" />
+        <div className="w-1/3 h-full " />
         <div className="w-4/6 ml-16" />
       </div>
-      <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
+      <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40 ">
         <CarouselProvider
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
           totalSlides={2}
         >
-          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-cyan-400	">
+          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-cyan-400">
             Thanks For visiting!
           </h1>
           <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-cyan-400	">
@@ -37,7 +35,7 @@ export default function MyApp() {
                 <img
                   src={mePic}
                   alt="image of profile"
-                  className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
+                  className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded-xl"
                 />
                 <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-indigo-100 rounded-full">
                   <img
@@ -46,8 +44,8 @@ export default function MyApp() {
                   />
                 </div>
               </div>
-              <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
-                <div>
+              <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between bg-gray-700 p-8 rounded-xl">
+                <div className = "">
                   <h1 className="text-2xl font-semibold xl:leading-loose text-cyan-400">
                     About Me!
                   </h1>

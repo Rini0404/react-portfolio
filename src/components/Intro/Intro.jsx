@@ -24,7 +24,11 @@ const Intro = () => {
                     alt="phone"
                   />
                 </div>
-                <p class="pl-4 text-white text-base">+1 (407)-607-2468 </p>
+                <p class="pl-4 text-white text-base">
+                <span className="font-bold text-fuchsia-500">
+                  +1 (407)-607-2468
+                </span> 
+                </p>
               </div>
 
               <div class="flex items-center">
@@ -35,13 +39,17 @@ const Intro = () => {
                   />
                 </div>
                 <p class="pl-4 text-white text-base">
+                <span className="font-bold text-fuchsia-500">
                   ReneOrtega2468[at]gmail.com
+                </span>
                 </p>
               </div>
 
               <p class="text-lg text-white pt-10 tracking-wide">
                 <br />
+                <span className="font-bold text-fuchsia-500">
                 Orlando, FL
+                </span>
               </p>
             </div>
           </div>

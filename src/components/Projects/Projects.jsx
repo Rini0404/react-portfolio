@@ -6,13 +6,7 @@ import tgdPic from "../../imgs/sdsd.PNG";
 function IndexPage() {
 
   return (
-    
     <div className="bgForPjects">
-      {/* big header for projcets */}
-      <div className="bigHeader">
-        <h1>Projects</h1>
-      </div>
-      
       <div class="flex flex-wrap justify-center gap-12 container mx-auto p-10 ">
         <div class="w-[360px] h-[480px] py-8 px-1">
           <div class="relative flex flex-col justify-center items-center w-[300px] h-[400px] mx-auto p-2 bgCards border-white border-2 rounded-3xl">

@@ -1,14 +1,14 @@
 import Skills from "../components/TechSkills/TechSkills";
 import React from "react";
 import About from "../components/About/About";
-import Intro from "../components/Intro/Intro";  
+import Me from "../components/Me/Me";
 
 function Home() {
   return (
     <div>
       <About />
       <Skills />
-      <Intro />
+      <Me />
     </div>
   );
 }

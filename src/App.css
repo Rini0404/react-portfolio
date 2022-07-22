@@ -138,6 +138,7 @@ body, html {
   grid-row-gap: 0px;
   background-image: url('./imgs/test3.jpg');
   border: none;
+  
   }
   
   .div1 { grid-area: 1 / 4 / 7 / 7;}
