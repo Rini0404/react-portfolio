@@ -19,6 +19,11 @@
 
 > A React.js project created to showcase my work! A polished UI, easy to navigate pages, and mobile responsive web app! Made from scratch by me.
 
+![Screen Shot 2022-07-22 at 8 33 05 PM](https://user-images.githubusercontent.com/95727555/180584220-9ea4de41-b84c-4115-85bf-4f5ba7a18836.png)
+![Screen Shot 2022-07-22 at 8 32 41 PM](https://user-images.githubusercontent.com/95727555/180584221-0231807e-7fc5-4697-ba6c-1932816c7dfb.png)
+![Screen Shot 2022-07-22 at 8 32 20 PM](https://user-images.githubusercontent.com/95727555/180584222-5a4fd422-ace1-4935-be04-305d78434a5e.png)
+
+
 ### 🏠 [Homepage](reneortega.dev)
 
 ## Prerequisites
