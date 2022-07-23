@@ -49,9 +49,9 @@ npm run test
 👤 **Rene Ortega**
 
 * Website: www.reneortega.dev
-* Twitter: [@https:\/\/twitter.com\/ReneOrt81345106](https://twitter.com/https:\/\/twitter.com\/ReneOrt81345106)
+* Twitter: [@ReneOrt81345106](https://twitter.com/https:\/\/twitter.com\/ReneOrt81345106)
 * GitHub: [@Rini0404](https://github.com/Rini0404)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/rene-ortega-a29564196\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/rene-ortega-a29564196\/)
+* LinkedIn: [@rene-ortega-a29564196](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/rene-ortega-a29564196\/)
 
 ## 🤝 Contributing
 
